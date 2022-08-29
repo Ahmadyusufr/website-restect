@@ -1,0 +1,266 @@
+.home{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    background: #F0E9D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar{
+    position: absolute;
+    width: 360px;
+    height: 139px;
+    top: 501px;
+    display: flex;
+    justify-content: center;
+
+    background: #A3856A;
+    mix-blend-mode: normal;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.welcome{
+    position: absolute;
+    width: 322px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    top: calc(50% - 77px/2 - 227.5px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.logo{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 162px;
+    display: flex;
+    justify-content: center;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.tombol{
+    width: 147px;
+    height: 69px;
+    margin: 8px;
+    background: #F0E9D2;
+    border-radius: 10px;
+    border: none;
+}
+
+.menu{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.jargon{
+    position: absolute;
+    width: 316px;
+    height: 30px;
+    bottom: 20px;
+
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* halaman Data */
+
+.data{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-back{
+    position: absolute;
+    width: 360px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0;
+
+    background: #F0E9D2;
+}
+
+.navbar-atas{
+    position: absolute;
+    width: 153px;
+    height: 42px;
+}
+
+.back{
+    position: absolute;
+    width: 153px;
+    height: 42px;
+    left: -20px;
+    top: -5px;
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.grafik{
+    position: absolute;
+    width: 324px;
+    height: 248px;
+    left: 18px;
+    top: 54px;
+    border-color: #000000;
+}
+
+.data-sensor{
+    position: absolute;
+    width: 326px;
+    height: 246px;
+    left: 17px;
+    top: 347px;
+    border-color: #000000;
+}
+
+/* Halaman Control */
+
+.control{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.maskot{
+    position: absolute;
+    width: 361px;
+    height: 549px;
+    left: -1px;
+    top: 119px;
+}
+
+.Shutdown-alarm{
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    left: 96px;
+    top: 120px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.shutdown{
+    position: absolute;
+    width: 71.66px;
+    height: 66.9px;
+    left: 144.12px;
+    top: 222.69px;
+}
+
+.Unlock-regulator{
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 80px;
+    top: 400px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #000000;  
+}
+
+.unlock{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 75px;
+    top: 447px;
+}
+
+.Lock-regulator{
+    position: absolute;
+    width: 44px;
+    height: 30px;
+    left: 229px;
+    top: 400px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #000000;    
+}
+
+.lock{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 212px;
+    top: 447px;
+}
