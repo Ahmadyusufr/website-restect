@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Lily+Script+One&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Control</title>
+</head>
+
+<body class="control">
+    <div class="navbar-back">
+        <div class="navbar-atas">
+            <a href="/home"><img src="{{ url_for('static', filename='css/image/Back.png') }}"></a>
+        </div>
+    </div>
+    <div class="maskot">
+        <img src="{{ url_for('static', filename='css/image/Maskot.png') }}"/>
+    </div>
+    <h2 class="Shutdown-alarm">Shutdown Alarm</h2>
+    <a class="shutdown"><img src="{{ url_for('static', filename='css/image/Botton-shutdown.png') }}"></a>
+    <h2 class="Unlock-regulator">Unlock</h2>
+    <a class="unlock"><img src="{{ url_for('static', filename='css/image/Botton-unlock.png') }}"></a>
+    <h2 class="Lock-regulator">Lock</h2>
+    <a class="lock"><img src="{{ url_for('static', filename='css/image/Botton-lock.png') }}"></a>
+</body>
+</html>
