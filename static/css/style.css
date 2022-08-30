@@ -1,20 +1,19 @@
 .home{
     position: relative;
-    width: 360px;
-    height: 640px;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     margin: auto;
     
     background: #F0E9D2;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .navbar{
-    position: absolute;
-    width: 360px;
+    position: fixed;
+    width: 100%;
     height: 139px;
-    top: 501px;
+    top: calc(100% - 139px);
     display: flex;
     justify-content: center;
 
@@ -24,7 +23,7 @@
 }
 
 .welcome{
-    position: absolute;
+    position: fixed;
     width: 322px;
     height: 77px;
     display: flex;
@@ -102,8 +101,8 @@
 
 .data{
     position: relative;
-    width: 360px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -113,7 +112,7 @@
 
 .navbar-back{
     position: absolute;
-    width: 360px;
+    width: 100%;
     height: 37px;
     left: 0px;
     top: 0px;
@@ -124,7 +123,7 @@
 
 .navbar-atas{
     position: absolute;
-    width: 153px;
+    width: 100%;
     height: 42px;
 }
 
@@ -149,7 +148,7 @@
 
 .grafik{
     position: absolute;
-    width: 324px;
+    width: calc(100% - 42px);
     height: 248px;
     left: 18px;
     top: 54px;
@@ -158,7 +157,7 @@
 
 .data-sensor{
     position: absolute;
-    width: 326px;
+    width: calc(100% - 42px);
     height: 246px;
     left: 17px;
     top: 347px;
@@ -169,8 +168,8 @@
 
 .control{
     position: relative;
-    width: 360px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -178,89 +177,82 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.maskot{
-    position: absolute;
-    width: 361px;
-    height: 549px;
-    left: -1px;
-    top: 119px;
+.gambar-maskot{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    width: 360px;
+    height: 540px;
+    top: calc(100% - 540px);
 }
 
-.Shutdown-alarm{
-    position: absolute;
-    width: 166px;
+.tulisan-shutdown-alarm{
+    position: fixed;
+    margin: auto;
+    width: auto;
     height: 30px;
-    left: 96px;
-    top: 120px;
-    
+    top: calc(100% - 520px);
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    
-    text-align: center;
-    
+
     color: #000000;
-    
 }
 
 .shutdown{
-    position: absolute;
-    width: 71.66px;
-    height: 66.9px;
-    left: 144.12px;
-    top: 222.69px;
+    position: fixed;
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    top: calc(100% - 430px);
 }
 
-.Unlock-regulator{
-    position: absolute;
-    width: 67px;
+.b-shutdown{
+    position: fixed;
+    margin: auto;
+    background-color: white;
+    border: none;
+}
+
+#tombol-container{
+    position: fixed;
+    display: flex;
+	justify-content: space-between;
+    top: calc(100% - 200px);
+}
+
+.tulisan-tombol{
+    position: fixed;
+    margin: auto;
+    width: 130px;
     height: 30px;
-    left: 80px;
-    top: 400px;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    
+
+    top: calc(100% - 250px);
+
+    color: #000000;
+}
+
+.lock-unlock{
+    display: flex;
     text-align: center;
-    
-    color: #000000;  
+	justify-content: space-between;
 }
 
-.unlock{
-    position: absolute;
-    width: 76px;
-    height: 76px;
-    left: 75px;
-    top: 447px;
+.gambar-tombol{
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-.Lock-regulator{
-    position: absolute;
-    width: 44px;
-    height: 30px;
-    left: 229px;
-    top: 400px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    
-    text-align: center;
-    
-    color: #000000;    
-}
-
-.lock{
-    position: absolute;
-    width: 76px;
-    height: 76px;
-    left: 212px;
-    top: 447px;
+.c-shutdown{
+    background-color:#A3856A;
+    border: none;
 }

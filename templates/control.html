@@ -18,14 +18,21 @@
             <a href="/home"><img src="{{ url_for('static', filename='css/image/Back.png') }}"></a>
         </div>
     </div>
-    <div class="maskot">
-        <img src="{{ url_for('static', filename='css/image/Maskot.png') }}"/>
-    </div>
-    <h2 class="Shutdown-alarm">Shutdown Alarm</h2>
-    <a class="shutdown"><img src="{{ url_for('static', filename='css/image/Botton-shutdown.png') }}"></a>
-    <h2 class="Unlock-regulator">Unlock</h2>
-    <a class="unlock"><img src="{{ url_for('static', filename='css/image/Botton-unlock.png') }}"></a>
-    <h2 class="Lock-regulator">Lock</h2>
-    <a class="lock"><img src="{{ url_for('static', filename='css/image/Botton-lock.png') }}"></a>
-</body>
+        <img class="gambar-maskot" src="{{ url_for('static', filename='css/image/Maskot.png') }}"/>
+                <h2 class="tulisan-shutdown-alarm">Shutdown Alarm
+                <form action = "http://localhost:5000/form" method = "post">
+                <button class="b-shutdown"><img class="shutdown" src="{{ url_for('static', filename='css/image/Botton-shutdown.png') }}" type = "submit" value = "submit"></button></h2>
+                <div id="tombol-container">
+                    <div class="lock-unlock">
+                        <h2 class="tulisan-tombol">Unlock</h2>
+                        <form action = "http://localhost:5000/form" method = "post">
+                        <button class="c-shutdown"><img class="gambar-tombol" src="{{ url_for('static', filename='css/image/Botton-unlock.png') }}" type = "submit" value = "submit"></button>
+                    </div>
+                    <div class="lock-unlock">   
+                        <h2 class="tulisan-tombol">Lock</h2>
+                        <form action = "http://localhost:5000/form" method = "post">
+                        <button class="c-shutdown"><img class="gambar-tombol" src="{{ url_for('static', filename='css/image/Botton-lock.png') }}" type = "submit" value = "submit"></button>
+                    </div>
+                </div>
+    </body>
 </html>
